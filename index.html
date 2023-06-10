@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <title>Calc</title>
+</head>
+
+<body>
+
+    <div class="calc">
+
+        <button class="theme-btn" id="theme-btn">
+            <img src="./image/dark-theme-btn.svg" alt="">
+        </button>
+
+        <div class="calc__screen">
+            <span class="calc__result" id="calc-result">
+                <span id="result"></span>
+            </span>
+        </div>
+
+        <div class="calc__buttons buttons">
+
+            <div class="buttons__left">
+
+                <div class="btn ac" id="clear">Ac</div>
+                <div class="btn backspace" id="backspace">
+                    <i class="far fa-backspace"></i>
+                </div>
+                <div class="btn division" id="/">/</div>
+
+                <div class="btn seven" id="7">7</div>
+                <div class="btn eight" id="8">8</div>
+                <div class="btn nine" id="9">9</div>
+
+                <div class="btn four" id="4">4</div>
+                <div class="btn five" id="5">5</div>
+                <div class="btn six" id="6">6</div>
+
+                <div class="btn one" id="1">1</div>
+                <div class="btn two" id="2">2</div>
+                <div class="btn three" id="3">3</div>
+
+                <div class="buttons__inner">
+                    <div class="btn zero" id="0">0</div>
+                    <div class="btn dot" id=".">.</div>
+                </div>
+
+            </div>
+
+            <div class="buttons__right">
+
+                <div class="btn multiply" id="*">*</div>
+                <div class="btn minus" id="-">-</div>
+                <div class="btn plus" id="+">+</div>
+                <div class="btn equal" id="equal">=</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
